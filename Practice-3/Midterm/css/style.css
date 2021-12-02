@@ -1,0 +1,110 @@
+body{
+	background:yellow;
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat; 
+}
+header{
+	background:black ;
+	border-radius:0px 0px 15px 15px ;
+	display: block;
+	
+
+}
+header #logo{
+	margin-left:10px;
+	margin-top:10px;
+	
+}
+
+
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+.nav-b{
+	list-style-type: none;
+	display: flex;
+	justify-content: right;
+	margin-right:10px ;
+
+}
+.nav-b a{
+	text-decoration: none;
+	font-family: Montserrat;
+	font-size:30px ;
+	color: white;
+	display:flex;
+	margin: 10px;
+
+	padding: 10px 20px;
+	background-color: black;
+
+}
+.nav-b li{
+	display: inline;
+}
+#my_inf ul{
+	list-style-type: none;
+
+}
+#conteiner{
+	margin-top: 150px;
+	align-content: center;
+display: flex;
+justify-content:space-between;
+}
+#my_inf{
+	margin-left:30px ;
+	margin-top: 150px;
+	justify-items: flex-start;
+	vertical-align: middle;
+}
+#h,#name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 45px;
+	line-height: 40px;
+}
+#pro{
+	color :grey;
+	font-size: 25px;
+	font-family: montserrat;
+}
+button{
+background: black;
+color: white;
+font-family: Monserrat;
+font-size:25px ;
+border-radius: 10px;
+padding: 15px 32px;
+
+}
+button a {
+	color: white;
+	text-decoration: none;
+
+}
+
+#my_photo img{
+	width: 55%;
+	border-radius:15px ;
+	border:5px solid black ;
+}
+#logos{
+	margin: 30px;
+	display:block;
+	
+}
+#logos ul{
+	list-style-type: none;
+
+}
+#con{
+	display:inline-flex;
+	
+}
+#logos li img{
+	width: 80%;
+}

@@ -1,0 +1,54 @@
+body{
+    width: 0%;
+    height: 0%;
+    font-family: Poppins,sans-serif;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+div p{
+    font-size: 14px;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: right;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius:35px ;
+    background-color: wheat;
+}
+.login{
+    background-color:#9E896A ;
+    color: white;
+}
+.btn {
+    font-size:17px;
+    margin-right:5px;
+    margin-left: 5px;
+    padding:12px 25px 12px 25px;
+    border-radius: 25px;
+}
+.register{
+    color: #9E896A;
+    background-color: wheat;
+}
+input{
+    padding:10px 80px;
+    border-radius:35px ;
+}
+.btn2{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    
+}
+.submit{
+    color: white;
+    background-color: #9E896A;}

@@ -1,0 +1,86 @@
+body{
+    width: 0%;
+    height: 0%;
+    font-family: Poppins,sans-serif;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+div p{
+    font-size: 14px;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: right;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius:35px ;
+    background-color: wheat;
+}
+.login{
+    background-color: wheat;
+    color: #9E896A;
+}
+.btn {
+    font-size:17px;
+    margin-right:5px;
+    margin-left: 5px;
+    padding:12px 25px 12px 25px;
+    border-radius: 25px;
+}
+.register,.submit{
+    color: white;
+    background-color: #9E896A;;
+}
+input{
+    padding:10px 80px;
+    border-radius:35px ;
+}
+.btn2{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    
+}
+ul{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+
+}
+li{
+  margin:10px;
+   
+}
+li a{
+text-decoration: none;
+font-size: 17px;
+color: #9E896A;
+border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 25px; 
+}
+li a:hover{
+    color: white;
+    background-color: #9E896A;
+}
+.line{
+    display:flex;
+    justify-content: space-between;
+
+}
+#cb{
+    font-size: 12px;
+}
+#fg a{
+    text-decoration: none;
+    font-size:12px ;
+    color:black;
+}
